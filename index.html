@@ -535,13 +535,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(<App />);
 </script>
 
 <style>
-  .root {
+  :root {
     --bg: #F1ECDE;
     --paper: #1B2530;
     --rule: #D8D0B9;
     --sage: #55703F;
     --oxblood: #8B3A3A;
     --muted: #86806E;
+  }
+  .root {
     background: var(--bg);
     color: var(--paper);
     font-family: 'IBM Plex Sans', -apple-system, sans-serif;
